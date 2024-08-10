@@ -40,6 +40,7 @@ function mostraAlternativas() {
     for (const alternativas of perguntaAtual.alternativas)
         {const botaoAlternativas=document.createElement(".bottun");
             botaoAlternativas.textContent=alternativas;
+            caixaAternativas.appendChild(botaoAlternativas);
         }
     }
 
