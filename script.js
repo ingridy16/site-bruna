@@ -48,5 +48,3 @@ function mostraAlternativas() {
 
 
 mostraPergunta();
-mostraAlternativas();
-
