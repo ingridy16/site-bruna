@@ -1,7 +1,7 @@
  
 body{
-    background-color: linear-gradient(  #23836e,#09af8b)
-    color: white
+    background-color: linear-gradient(  #23836e,#09af8b);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
