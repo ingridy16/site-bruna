@@ -1,7 +1,7 @@
  
 body{
-    background-color: #021e42;
-    color: var(--cor-texto);
+    background-color: linear-gradient(  #23836e,#09af8b)
+    color: white
     display: flex;
     justify-content: center;
     align-items: center;
