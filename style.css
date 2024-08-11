@@ -7,7 +7,7 @@
 }
  
 body{
-    background-color: var(--cor-fundo);
+    background-color: #021e42;
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
