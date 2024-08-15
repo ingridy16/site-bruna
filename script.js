@@ -8,23 +8,54 @@ const perguntas = [
     {
         enunciado: " 1) Qual é a principal causa do aquecimento global?",
         alternativas: [
-            "a) Queima de combustíveis fósseis",
-            "b) Uso excessivo de energia solar",
-            "c) Desmatamento indiscriminado"],
+            {
+            texto: "a) Queima de combustíveis fósseis",
+            afirmacao: "afirmacao"
+            },
+            {
+            texto:"b) Uso excessivo de energia solar",
+            afirmacao: "afirmacao"
+            },
+            {
+            texto:"c) Desmatamento indiscriminado",
+            afirmacao: "afirmacao"
+        }
+    ]
     },
+
     {
         enunciado: "2) Quais são alguns dos impactos das inundações?",
         alternativas: [
-            "a) Destruição de propriedades",
-            "b) Aumento da biodiversidade",
-            "c) Diminuição da erosão do solo"],
+            {
+            texto:"a) Destruição de propriedades",
+            afirmacao: "afirmacao"
+            },
+            {
+            texto: "b) Aumento da biodiversidade",
+            afirmacao: "afirmacao"
+            },
+            { texto:"c) Diminuição da erosão do solo",
+                arfirmacao: "afirmacao"
+            }
+        ]
+           
     },
     {
         enunciado: "3) Quais são algumas das consequências do desmatamento?",
         alternativas: [
-            "a) Perda de biodiversidade",
-            "b) Diminuição das emissões de carbono",
-            "c) Melhoria na qualidade do solo"],
+            {
+            texto:"a) Perda de biodiversidade",
+            afirmacao: "afirmacao"
+        },
+         {   
+            texto: "b) Diminuição das emissões de carbono",
+            afirmacao: "afirmacao"
+         },
+         {
+          texto: "c) Melhoria na qualidade do solo",
+          afirmacao: "afirmacao"
+         }
+        ]
     },
 ];
 
@@ -39,46 +70,10 @@ function mostraPergunta() {
 function mostraAlternativas() {
     for (const alternativas of perguntaAtual.alternativas)
         {const botaoAlternativas=document.createElement("button");
-            botaoAlternativas.textContent=alternativas;
+            botaoAlternativas.textContent=alternativas.texto;
+            botaoAlternativas.addEvenListener("click",function(){atual++;
+                mostraPergunta();
+            })
             caixaAternativas.appendChild(botaoAlternativas);
         }
     }
-
-
-
-
-mostraPergunta();
-
-const perguntas = [
-    {
-    enunciado: "1) Qual é a principal causa do aquecimento global?",
-    alternativas: [
-{
-    texto: "a) Destruição de propriedades",
-    afirmacao: "afirmacao"
-},
-{
-    texto: "b) Uso excessivo de energia solar",
-    afirmacao: "afirmacao"
-},
-{
-    texto: "c) Desmatamento indiscriminado",
-    afirmacao: "afirmacao"
-}
-    ]
-}
-]
-
-
-
-function mostraAlternativas(){
-    for(const alternativa of perguntaAtual.alternativas){
-            const botaoAlternativas = document.createElement("button");
-            botaoAlternativas.textContent = alternativa.texto;
-            botaoAlternativas.addEventListener("click", function(){
-                atual++;
-                mostraPergunta();
-            })
-            caixaAlternativas.appendChild(botaoAlternativas);
-    }
-}
