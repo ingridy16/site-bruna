@@ -72,9 +72,9 @@ function mostraPergunta() {
     
 
 function mostraAlternativas() {
-    for (const alternativas of perguntaAtual.alternativas)
+    for (const alternativa of perguntaAtual.alternativas)
         {const botaoAlternativas=document.createElement("button");
-            botaoAlternativas.textContent=alternativas.texto;
+            botaoAlternativas.textContent=alternativa.texto;
             botaoAlternativas.addEvenListener("click",function(){atual++;
                 mostraPergunta();
             })
