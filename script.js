@@ -64,8 +64,10 @@ let atual = 0;
 let perguntaAtual;
 function mostraPergunta() {
     perguntaAtual= perguntas[atual];
-    caixaPerguntas.textContent= perguntaAtual.enunciado
-    mostraAlternativas();
+    caixaPerguntas.textContent= perguntaAtual.enunciado;
+
+    mostraPergunta()
+    
 } 
 function mostraAlternativas() {
     for (const alternativas of perguntaAtual.alternativas)
@@ -79,4 +81,4 @@ function mostraAlternativas() {
     }
 
     mostraPergunta();
-    mostraAlternativas();
+   
