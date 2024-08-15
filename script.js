@@ -77,3 +77,6 @@ function mostraAlternativas() {
             caixaAternativas.appendChild(botaoAlternativas);
         }
     }
+
+    mostraPergunta();
+    mostraAlternativas();
