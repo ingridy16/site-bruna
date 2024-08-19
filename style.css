@@ -1,9 +1,10 @@
 :root{
-    --cor-fundo: rgb(3, 59, 109);
-    --cor-principal: #0B0D20 ;
+    --cor-fundo: rgb(2, 80, 69);
+    --cor-principal: #090f47 ;
     --cor-secundaria: #212333;
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+    --cor-botao: #055a4c;
+    --cor-destaque: #13d6f8;
+    --cor-texto: #d7f5fa;
 }
  
 body{
@@ -30,7 +31,7 @@ h1{
 
 
 button {
-    background-color: var(--cor-principal);
+    background-color: var(--cor-botao);
     color: var(--cor-destaque);
     border: none;
     border-radius: 15px;

@@ -53,7 +53,7 @@ const perguntas = [
          },
          {
           texto: "c) Melhoria na qualidade do solo",
-          afirmacao: "3) Errado, o desmatamento pode prejuddicar a qualidade do solo."
+          afirmacao: "3) Errado, o desmatamento pode prejudicar a qualidade do solo."
          }
         ]
     },
