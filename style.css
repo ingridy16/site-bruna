@@ -16,7 +16,7 @@ body{
 }
 
 .caixaPrincipal{
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-principal);
     width: 90%;
     max-width: 600px;
     text-align: center;
@@ -24,7 +24,7 @@ body{
 }
 
 h1{
-    color: var();
+    color: var(--cor-destaque);
 }
 
 
