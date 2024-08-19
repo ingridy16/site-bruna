@@ -71,7 +71,7 @@ function mostraPergunta() {
     }
     perguntaAtual= perguntas[atual];
     caixaPerguntas.textContent= perguntaAtual.enunciado;
-    caixaAternativas=textContent="";
+    caixaAternativas.textContent="";
     mostraAlternativas();
 }
 
@@ -86,9 +86,15 @@ function mostraAlternativas() {
 
     function respostaSelecionada(opcaoSelecionada){
         const afirmacoes = opcaoSelecionada.afirmacoes;
-        historiaFinal = afirmacoes;
+        historiaFinal += afirmacoes + " ";
             atual++;
             mostraPergunta();
+    }
+
+    function mostraResultado(){
+        caixaPerguntas.textContent = "em 2049";
+        textoResultado.textContent = historiaFinal;
+        caixaAternativas.textContent = "";
     }
 
     
