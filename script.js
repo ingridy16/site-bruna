@@ -35,7 +35,7 @@ const perguntas = [
             afirmacao: "2) Errado, pelo contrário, a biodiversidade pode ser prejudicada por inundações."
             },
             { texto:"c) Diminuição da erosão do solo",
-                arfirmacao: "2) Errado, as inundações podem causar erosão no solo."
+                afirmacao: "2) Errado, as inundações podem causar erosão no solo."
             }
         ]
            
