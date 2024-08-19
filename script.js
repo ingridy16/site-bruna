@@ -10,15 +10,15 @@ const perguntas = [
         alternativas: [
             {
             texto: "a) Queima de combustíveis fósseis",
-            afirmacao: "afirmacao"
+            afirmacao: "1) Correto, a queima de combustível fóssil é extremamente prejudicial ao meio ambiente."
             },
             {
             texto:"b) Uso excessivo de energia solar",
-            afirmacao: "afirmacao"
+            afirmacao: "1) Errado, ao contrário, o uso de energia solar é uma maneira de cuidarmos do meio ambiente."
             },
             {
-            texto:"c) Desmatamento indiscriminado",
-            afirmacao: "afirmacao"
+            texto:"c) Reciclagem de lixo",
+            afirmacao: "1) Errado, a reciclagem diminue consideravelmente o estrago feito pelo ser humano na natureza."
         }
     ]
     },
@@ -28,14 +28,14 @@ const perguntas = [
         alternativas: [
             {
             texto:"a) Destruição de propriedades",
-            afirmacao: "afirmacao"
+            afirmacao: "2) Correto, infelizmente diversas propriedades são destruidas por inundações."
             },
             {
             texto: "b) Aumento da biodiversidade",
-            afirmacao: "afirmacao"
+            afirmacao: "2) Errado, pelo contrário, a biodiversidade pode ser prejudicada por inundações."
             },
             { texto:"c) Diminuição da erosão do solo",
-                arfirmacao: "afirmacao"
+                arfirmacao: "2) Errado, as inundações podem causar erosão no solo."
             }
         ]
            
@@ -45,15 +45,15 @@ const perguntas = [
         alternativas: [
             {
             texto:"a) Perda de biodiversidade",
-            afirmacao: "afirmacao"
+            afirmacao: "3) Correto, a biodiversidade é diretamnete atacada pelo desmatamento."
         },
          {   
             texto: "b) Diminuição das emissões de carbono",
-            afirmacao: "afirmacao"
+            afirmacao: "3) Errado, as emissões de carbono estão ligadas a queimadas, que podem piorar devido ao desmatanto."
          },
          {
           texto: "c) Melhoria na qualidade do solo",
-          afirmacao: "afirmacao"
+          afirmacao: "3) Errado, o desmatamento pode prejuddicar a qualidade do solo."
          }
         ]
     },
