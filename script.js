@@ -45,11 +45,11 @@ const perguntas = [
         alternativas: [
             {
             texto:"a) Perda de biodiversidade",
-            afirmacao: "3) Correto, a biodiversidade é diretamnete atacada pelo desmatamento."
+            afirmacao: "3) Correto, a biodiversidade é diretamente atacada pelo desmatamento."
         },
          {   
             texto: "b) Diminuição das emissões de carbono",
-            afirmacao: "3) Errado, as emissões de carbono estão ligadas a queimadas, que podem piorar devido ao desmatanto."
+            afirmacao: "3) Errado, as emissões de carbono estão ligadas a queimadas, que podem piorar devido ao desmatamento."
          },
          {
           texto: "c) Melhoria na qualidade do solo",
